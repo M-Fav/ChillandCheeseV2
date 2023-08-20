@@ -1,0 +1,154 @@
+header {
+    display: flex;
+    flex-direction: column; /* Ajoutez cette ligne pour empiler les éléments */
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 100%;
+    background-color: #21535b;
+}
+body {
+    background-color: whitesmoke;
+}
+
+body, .container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.logo {
+    max-width: 200px;
+    padding: 20px 20px;
+}
+
+.navigation {
+    margin-top: auto; /* Pour aligner la barre de navigation en bas */
+    width: 30%;
+}
+
+.navBar {
+    display: flex;
+    background-color: #21535b;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.navBar a {
+    color:whitesmoke;
+}
+
+
+
+.top-box {
+    display: flex;
+    flex-direction: column; /* Ajoutez cette ligne pour empiler les éléments */
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-image: url(../assets/fondfromage.jpg);
+    background-size: cover;
+    margin-top: 3%;
+}
+
+.reservation-box {
+    background-color: whitesmoke;
+    height: 80%;
+    width: 35%;
+}
+
+.middle-box {
+    display: flex;
+    flex-direction: column; /* Ajoutez cette ligne pour empiler les éléments */
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    width: auto;
+    background-color: whitesmoke;
+}
+
+.concept-box {
+    width: 40%;
+    text-align: center;
+}
+
+h1, h2 {
+    color: rgb(215, 129, 0);
+    padding: 2%;
+    text-align: center;
+}
+
+.bottom-box {
+    display: flex;
+    flex-direction: column; /* Ajoutez cette ligne pour empiler les éléments */
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    width: auto;
+    background-image: url(../assets/fondfromage2.jpg);
+    background-size: cover;
+}
+
+.card-box {
+    display: flex;
+    flex-direction: column; /* Ajoutez cette ligne pour empiler les éléments */
+    align-items: center;
+    height: 500px;
+    width: auto;
+    background-color: whitesmoke;
+}
+
+.button-div {
+    background-color: whitesmoke;
+    padding: 2%;
+    width: 30%;
+}
+
+.card-btn {
+    height: 50px;
+}
+
+.description-box {
+    height: 400px;
+}
+
+.description-media {
+    display: flex;
+    height: 300px;
+
+    
+}
+
+.description-txt {
+    padding: 5%;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+.contact-btn {
+    margin: 2%;
+}
+
+.description-photo {
+    background-image: url(../assets/fondfromage2.jpg);
+    background-size: cover;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: whitesmoke;
+    margin-top: 3%;
+    height: 250px;
+    width: 100%;
+    background-color: #21535b;
+}
