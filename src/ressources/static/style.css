@@ -7,13 +7,9 @@ header {
     width: 100%;
     background-color: #21535b;
 }
-body {
-    background-color: whitesmoke;
-}
 
-body, .container-fluid {
-    margin: 0;
-    padding: 0;
+main {
+    background-color: whitesmoke;
 }
 
 .header-content {
@@ -150,9 +146,9 @@ h1, h2 {
     background-size: cover;
 }
 
-footer {
+.footer-content {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     color: whitesmoke;
     margin-top: 3%;
@@ -162,4 +158,39 @@ footer {
 }
 
 
-----------------------------------------------ENTREES----------------------------------------------
+.entry-title-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.entry-title {
+    text-align: center;
+}
+
+.entry-box {
+    align-items: center;
+    justify-content: center;
+}
+
+
+.entry {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    height: 250px;
+    border: solid 1px rgb(215, 129, 0);
+    margin: 2%;
+}
+
+.card-footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    height: 250px;
+    width: 100%;
+    background-color: #21535b;
+}
